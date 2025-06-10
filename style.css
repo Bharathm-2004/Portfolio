@@ -615,7 +615,7 @@ body{
     font-size: 10em;
     font-family: arial;
     color: black;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #fff;
     -webkit-text-fill-color:black;
     background-color: black;
@@ -1675,7 +1675,7 @@ body{
         display: grid;
         grid-template-columns: 4fr;
         align-items: center;
-        justify-content: space-around;
+        justify-content:center;
     }
      .logo h1{
         /* display: block; */
@@ -1686,12 +1686,12 @@ body{
     display: flex;
     justify-content:center ;
     align-items: center;
-    column-gap: 30px;
+    column-gap: 25px;
 }
     .menu a{
     text-decoration: none;
     color: white;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family:monospace;
 }
  .contact{
@@ -1707,7 +1707,8 @@ body{
     /* width: 70%; */
     /* margin-top: 150px; */
     line-height: 60px;
-    padding: 15px;
+    padding: 25px;
+    margin: auto;
 }
 .name1 h3{
     font-size: 2rem;
@@ -1727,7 +1728,8 @@ body{
 .profile_img{
 
     /* border-radius: 50%; */
-    margin-top: 100%;
+    margin-top: 180%;
+    /* margin-left:30% */
 
 }
 
@@ -1736,7 +1738,7 @@ body{
 }
 
 .con_bt{
-    margin-top:60%;
+    margin-top:90%;
 }
 
 #about{
