@@ -359,7 +359,7 @@ body{
      /* font-size: 4em; */
         font-family: "Abel", sans-serif;
     color: black;    
-    -webkit-text-stroke-width: 5px;
+    /* -webkit-text-stroke-width: 5px; */
     -webkit-text-stroke-color: #fff;
     /* -webkit-text-fill-color: transparent; */
    
@@ -553,7 +553,7 @@ body{
     font-size: 10em;
     font-family: arial;
     color: black;
-    -webkit-text-stroke-width: 3px;
+    /* -webkit-text-stroke-width: 0.5px; */
     -webkit-text-stroke-color: #fff;
     -webkit-text-fill-color: black;
     background-color: black;
@@ -614,8 +614,9 @@ body{
 .two{
     font-size: 10em;
     font-family: arial;
+    /* width: 5px; */
     color: black;
-    -webkit-text-stroke-width: 1px;
+    /* -webkit-text-stroke-width:0.5px; */
     -webkit-text-stroke-color: #fff;
     -webkit-text-fill-color:black;
     background-color: black;
@@ -637,7 +638,7 @@ body{
     font-family: arial;
     color: black;
     padding: 0;
-    -webkit-text-stroke-width: 3px;
+    /* -webkit-text-stroke-width: 0.5px; */
     -webkit-text-stroke-color: #fff;
     -webkit-text-fill-color:black;
     background-color:black ;
@@ -674,7 +675,7 @@ body{
         font-size: 10em;
     font-family: arial;
     color: black;
-    -webkit-text-stroke-width: 3px;
+    /* -webkit-text-stroke-width: 0.5px; */
     -webkit-text-stroke-color: #fff;
     -webkit-text-fill-color: black;
 }
@@ -865,6 +866,7 @@ body{
 .project1{
     display:flex;
     justify-content:center;
+    align-items: center;
     flex-wrap: wrap;
     column-gap: 50px;
     /* margin-top: 10%; */
@@ -1331,6 +1333,10 @@ body{
    z-index: -1;
 }
 
+.con_bt{
+    margin-top:5%;
+}
+
 .abt_content{
  display: grid;
  grid-template-columns: 1fr 2fr;
@@ -1346,7 +1352,15 @@ body{
 .abtp{
     font-size: 2rem;
 }
+.abt_name h1 p{
+        -webkit-text-stroke-width: 5px;
+}
 
+/*skill*/
+
+.one,.two,.three,.four{
+    -webkit-text-stroke-width: 4px;
+}
 /*project section*/
     .pro_content{
     width: 50%;
@@ -1434,6 +1448,10 @@ body{
     top: 120px;left:-10px;
 }
 
+.con_bt{
+    margin-top:5%;
+}
+
 #about{
     margin-top: -30%;
 }
@@ -1449,6 +1467,9 @@ body{
     font-size: 1.5rem;
 }
 
+.abt_name h1 p{
+        -webkit-text-stroke-width: 5px;
+}
 /*project section*/
     .pro_content{
     width: 80%;
@@ -1459,7 +1480,9 @@ body{
 
 /*skill section*/
 
-
+.one,.two,.three,.four{
+    -webkit-text-stroke-width: 4px;
+}
  
 }
 
@@ -1555,6 +1578,9 @@ body{
 .abtp{
     font-size: 1.5rem;
 }
+.abt_name h1 p{
+        -webkit-text-stroke-width: 5px;
+}
 /*project section*/
     .pro_content{
     width: 90%;
@@ -1565,6 +1591,9 @@ body{
 
 /*skill section*/
 
+.one,.two,.three,.four{
+    -webkit-text-stroke-width: 3px;
+}
 
 }
 
@@ -1655,6 +1684,9 @@ body{
 .abtp{
     font-size: 1.5rem;
 }
+.abt_name h1 p{
+        -webkit-text-stroke-width: 5px;
+}
  /*project section*/
  .project1{
         margin-top: 45%;
@@ -1664,6 +1696,9 @@ body{
 
 #skills{
     margin-top: -40%;
+}
+.one,.two,.three,.four{
+    -webkit-text-stroke-width: 2px;
 }
 
 
@@ -1738,7 +1773,7 @@ body{
 }
 
 .con_bt{
-    margin-top:90%;
+    margin-top:130%;
 }
 
 #about{
@@ -1761,15 +1796,32 @@ body{
     font-size: 1.5rem;
     opacity:0;
 }
+.abt_name h1 p{
+        -webkit-text-stroke-width: 1px;
+}
   /*project section*/
  .project1{
         margin-top: 45%;
+        /* display: block; */
+        margin: auto;
 }
  
 /*skill section*/
 #skills{
+    margin: auto;
     margin-top: -50%;
 }
+.skil_name{
+    margin: auto;
+}
+.one,.two,.three,.four{
+    -webkit-text-stroke-width: 1px;
+}
+.contact_detail{
+    margin: auto;
+}
 
-
+.overall_cricle{
+    margin: auto;
+}
 }
