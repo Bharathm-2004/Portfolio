@@ -1804,6 +1804,7 @@ body{
         margin-top: 45%;
         /* display: block; */
         margin: auto;
+        overflow-x: hidden;
 }
  
 /*skill section*/
