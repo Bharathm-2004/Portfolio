@@ -272,6 +272,7 @@ body{
     margin-left: -20%;
     transform: translateY(270px);
     position: relative;
+    opacity: 0.6;
 }
 .oveal1{
     height: 117px;
@@ -483,7 +484,7 @@ body{
 }
 
 .number:nth-child(odd){
-     /* animation: skl_left 3s linear; */
+     animation: skl_left 3s linear;
     animation-timeline:view();
     animation-range: entry 0 cover 40%;
 }
@@ -495,7 +496,7 @@ body{
     }
 }
 .number:nth-child(even){
-        /* animation: skl_right 3s linear; */
+        animation: skl_right 3s linear;
     animation-timeline:view();
     animation-range: entry 10% cover 40%;
 }
@@ -722,7 +723,7 @@ body{
  background-color: black;
  border-right: 3px solid white; 
  position: absolute;
- top: 59.5%; left: 18%; 
+ top: 58.9%; left: 18%; 
 }
 .num_bar2::before{
     content: '';
@@ -745,8 +746,8 @@ body{
     background-color: black;
     border-top-left-radius:10px;
     position: absolute;
-    top: 59.5%;
-    left: 24%;
+    top: 59%;
+    left: 23.8%;
 }
 .num_bar3::before{
     content: '';
@@ -791,7 +792,7 @@ body{
     background-color: black;
     border-top-left-radius: 20px;
     position: absolute;
-    top: 59%;left: 18%;
+    top: 58.6%;left: 18%;
 }
 .num_bar5::before{
     content: '';
@@ -874,7 +875,7 @@ body{
     position: relative;
       animation:left 3s linear;
     animation-timeline: view();
-    animation-range: entry 0 cover 10%;
+    animation-range: entry 0 cover 40%;
 }
 @keyframes left {
     from{
@@ -965,11 +966,11 @@ body{
     animation-timeline: view();
     animation-range: entry 0 cover 40%;
 }
-/* @keyframes right {
+@keyframes right {
     from{
         transform: translateX(600px);
     }
-} */
+}
 
 .pro_content h1{
     font-size: 3em;
@@ -1068,8 +1069,8 @@ body{
 }
 .circular_progress{
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     background: conic-gradient(var(--clr) calc(var(--progress)*3.6deg),black 0deg);
     border-radius:50% ;
     display: flex;
@@ -1084,10 +1085,10 @@ body{
 .circular_progress::before{
     content: "";
     position: absolute;
-    top:    16%;
-    left: 16%;
-    width: 200px;
-    height: 200px;
+    top: 14%;
+    left: 13%;
+    width: 180px;
+    height: 180px;
     background-color:black;
     border-radius: 50%;
 }
@@ -1148,12 +1149,12 @@ body{
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    gap: 100px;
+    column-gap: 50px;
 }
 .con_cricle{
     margin-top: 5%;
-    height: 380px;
-    width: 380px;
+    height: 300px;
+    width: 300px;
     background: linear-gradient(transparent,transparent,transparent,rgb(69, 157, 240));
     border-radius: 50%;
     position: relative;
@@ -1168,7 +1169,7 @@ body{
 
 @keyframes down {
     from{
-        transform: translateY(250px) scale3d(5);
+        transform: translateY(350px) scale3d(3);
         transition: transform 1s;
         opacity: 0;
     }
@@ -1177,10 +1178,10 @@ body{
 .con_cricle::before{
       content: "";
     position: absolute;
-    top:    14%;
-    left: 14%;
-    width: 280px;
-    height: 280px;
+    top:    19%;
+    left: 16%;
+    width: 200px;
+    height: 200px;
     /* background-color: red; */
     background:linear-gradient(rgba(15, 15, 15, 0.932),rgb(26, 25, 25),rgb(29, 29, 29),rgb(69, 157, 240),rgb(69, 157, 240));
     border-radius: 50%;
